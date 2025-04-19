@@ -1,5 +1,38 @@
-# crime-analysis-los-angeles
+# Los Angeles Crime Analysis
 
-analysis made to find out when and where crime is most likely to occur, along with the types of crimes commonly committed in LA
+A data analysis project exploring crime patterns in Los Angeles.
 
-- stand by -
+## Project Structure
+```
+crime-analysis-los-angeles/
+├── data/                    # Raw and processed data
+│   ├── raw/                # Original data files
+│   └── processed/          # Processed data files
+├── notebooks/              # Jupyter notebooks
+│   ├── 01_data_exploration.ipynb
+│   ├── 02_data_cleaning.ipynb
+│   └── 03_analysis.ipynb
+├── src/                    # Source code
+│   ├── data/              # Data processing scripts
+│   ├── visualization/     # Visualization functions
+│   └── utils/             # Utility functions
+├── reports/               # Generated reports and visualizations
+└── requirements.txt       # Project dependencies
+```
+
+## Setup
+1. Create a virtual environment:
+```bash
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+```
+
+2. Install dependencies:
+```bash
+pip install -r requirements.txt
+```
+
+## Workflow
+1. Data Exploration: `notebooks/01_data_exploration.ipynb`
+2. Data Cleaning: `notebooks/02_data_cleaning.ipynb`
+3. Analysis: `notebooks/03_analysis.ipynb`
