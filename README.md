@@ -12,10 +12,10 @@ crime-analysis-los-angeles/
 │   ├── 01_data_exploration.ipynb
 │   ├── 02_data_cleaning.ipynb
 │   └── 03_analysis.ipynb
-├── src/                    # Source code
+├── src/                   
 │   ├── data/              # Data processing scripts
 │   ├── visualization/     # Visualization functions
-│   └── utils/             # Utility functions
+│   └── utils/            
 ├── reports/               # Generated reports and visualizations
 └── requirements.txt       # Project dependencies
 ```
