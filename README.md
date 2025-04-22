@@ -1,6 +1,6 @@
 # Los Angeles Crime Analysis
 
-A data analysis project exploring crime patterns in Los Angeles.
+Data Analysis exploring crime patterns in Los Angeles.
 
 ## Project Structure
 ```
