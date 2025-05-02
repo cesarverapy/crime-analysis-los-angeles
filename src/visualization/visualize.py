@@ -58,7 +58,7 @@ def plot_crime_trends(df):
         raise ValueError("DataFrame does not contain 'DATE OCC' column")
     
     # Resample data by month
-    monthly_crimes = df.set_index('DATE OCC').resample('M').size()
+    monthly_crimes = df.set_index('DATE OCC').resample('ME').size()
     
     plt.figure(figsize=(15, 6))
     monthly_crimes.plot(kind='line')
