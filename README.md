@@ -54,3 +54,8 @@ pip install -r requirements.txt
 - `src/visualization/visualize.py`: Functions for creating crime analysis visualizations
 - `src/utils/data_info.py`: Utility functions for dataset information and statistics
 - `test_code.py`: Test suite to verify project functionality
+
+## Future
+
+- Add more visualization
+- Add more types of analysis
